@@ -211,7 +211,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
 <style>
-
+ @font-face {
+    font-family: 'Dmt'; /* Гарнитура шрифта */
+    src: url(arialnarrow.ttf); /* Путь к файлу со шрифтом */
+   }
  @font-face {
         font-family: 'timesregular';
         src: url('/sites/g/files/g2000017981/files/2024-01/times-roman-01-webfont.eot');
@@ -474,7 +477,7 @@ body.black #textOverlay {
     }
     div#textOverlay span.textFitted{
         font-weight: 500;
-        font-family: arial_narrowregular, "Arial Narrow", sans-serif;
+        font-family: 'Dmt';
         font-size: 100px;
         /* filter: blur(2px); */
     }
